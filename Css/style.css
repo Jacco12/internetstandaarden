@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+.navigation {
+
+    text-align: center;
+}
+
+Header {
+    height: 80px;
+    background-color: rgb(154, 154, 154);
+    
+}
+
+
+Footer {
+    Height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.Black-thocky-keyboard-switches {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}

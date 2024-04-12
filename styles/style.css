@@ -1,0 +1,318 @@
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+@font-face {
+    font-family: Thiccfont;
+    src: url(../Assest/Fonts/SecularOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Thinfont;
+    src: url(../Assest/Fonts/Quicksand-VariableFont_wght.ttf);
+}
+
+/* Global settings */
+
+nav ul {
+    font-family: Thiccfont;
+    font-size: 20pt;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    transition: 250ms ease;
+}
+
+nav ul a:hover {
+    color: rgb(252, 206, 0)
+}
+
+main {
+    color: white;
+}
+
+a {
+    cursor: pointer;
+    font-family: Thiccfont;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p {
+    font-family: Thinfont;
+}
+
+h1 {
+    text-align: center;
+    font-family: Thiccfont;
+    font-size: 50pt;
+    color: rgb(252, 206, 0)
+}
+
+h2 {
+    font-family: Thiccfont;
+}
+
+h3 {
+    font-family: Thiccfont;
+}
+
+/* HOME PAGE */
+/* begin text */
+
+.begin-text {
+    text-align: center;
+}
+
+.begin-text h1 {
+    margin: 0;
+    margin-top: 1em;
+}
+
+.begin-text p {
+    font-size: 13pt;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.begin-text h2 {
+    margin-top: 3em;
+}
+
+.rectangle {
+    width: 100px;
+    height: 10px;
+    background-color: rgb(252, 206, 0);
+    margin: auto;
+}
+
+/* Home sections */
+
+.segment {
+    display: flex;
+    background: rgb(252, 206, 0);
+    margin-top: 10em;
+}
+
+.segment__content {
+    padding: 4em;
+}
+
+.segment h2 {
+    font-family: 'Thiccfont';
+    font-size: 20pt;
+    color: black;
+}
+
+.segment p {
+    font-size: 12pt;
+    text-align: left;
+    color: black;
+    margin-bottom: 5em;
+}
+
+.segment img {
+    width: 400px;
+    object-fit: cover;
+}
+
+.segment a {
+    font-size: 20pt;
+    color: rgb(252, 206, 0);
+    background-color: rgb(36, 36, 36);
+    padding: 0.5em;
+    transition: 250ms ease;
+}
+
+.segment a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36)
+}
+
+/* keycaps */
+
+.keycaps {
+    margin-top: 10em;
+    text-align: right;
+}
+
+.keycaps p {
+    text-align: right;
+}
+
+.keycaps a {
+    color: rgb(252, 206, 0);
+}
+
+
+/* Soundtest */
+
+.soundtest {
+    text-align: center;
+    padding: 15em;
+}
+
+.soundtest h2 {
+    font-size: 25pt;
+    color:rgb(252, 206, 0);
+    margin: 0
+}
+
+.soundtest p {
+    font-size: 13pt;
+    margin-bottom: 3em;
+}
+
+.soundtest a {
+    background-color: rgb(252, 206, 0);
+    font-size: 17pt;
+    padding: 0.5em 0.9em;
+    transition: 250ms ease;
+    color:rgb(36, 36, 36)
+}
+
+.soundtest a:hover {
+    background-color:rgb(255, 255, 255);
+}
+
+/* SWITCHES PAGE*/
+
+.wat-zijn-het {
+    text-align: center;
+    font-family: 'Thinfont';
+    color: rgb(255, 255, 255);
+}
+
+.wat-zijn-het h2 {
+    margin-top: 3em;
+}
+
+.switches-dark-image {
+    max-width: 80%;
+    margin-bottom: 7em;
+}
+
+.wat-zijn-het p {
+    margin-bottom: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+/* small headers */
+
+.small-header {
+    margin-bottom: 7em;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(36, 36, 36)
+}
+
+.waar-kan-je-ze-krijgen {
+    text-align: left;
+    width: 25vw;
+    margin-left: 9.1em;
+    background-color: rgb(252, 206, 0);
+    padding: 2em;
+}
+
+.Hoeveel-kosten-ze {
+    text-align: right;
+    width: 25vw;
+    margin-right: 9.1em;
+    background-color: rgb(252, 206, 0);
+    padding: 2em;
+}
+
+
+/* KEYCAPS PAGE */
+
+.keycaps-intro {
+    margin-bottom: 10em;
+    margin-top: 3em;
+}
+
+.keycaps-intro h2 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.keycaps-intro div {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(252, 206, 0)
+}
+
+.keycaps-intro div img {
+    max-width: 25%;
+    padding: 2em;
+    transition: 250ms ease;
+}
+
+.keycaps-intro p {
+    text-align: center;
+    margin-bottom: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.keycaps-images:hover {
+    transform:scale(1.5)
+}
+
+/* SOUND TEST PAGE */
+
+.clickable-switches{
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color:rgb(36, 36, 36)
+}
+
+.clickable-switches div {
+    text-align: center;
+}
+
+.r-b-b-switches {
+    background-color:rgb(252, 206, 0);
+    padding: 0.5em;
+}
+
+
+.clickableswitches {
+    width: 300px;
+    transition: 250ms ease;
+}
+
+
+.clickableswitches:active {
+    transform: scale(2);
+}
+
+
+/* FOOTER */
+
+footer {
+    Height: 200px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.bronnen {
+    font-size: 9px;
+    margin-right: 20%;
+    padding: 2em;
+    text-align: left;
+}
+
+footer p {
+    padding: 2em;
+    font-size: 9px
+}
